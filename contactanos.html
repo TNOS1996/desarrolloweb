@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/Proyecto/styles.css">
+  <title>Formulario</title>
+</head>
+<body>
+  <nav>
+    <ul class="nav">
+        <li><a href="/Proyecto/index.html">Inicio</a></li>
+        <li><a href="empresa.html">Empresa</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="clientes.html">Clientes</a></li>
+        <li><a href="contactanos.html">Contáctanos</a></li>
+    </ul>
+</nav>
+  <h2>Contactanos</h2>
+  <form method="post" action="procesar_formulario.php">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br><br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>
+    <br><br>
+    <label for="telefono">Ingresa tu Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+    <br><br>
+    <label for="email">Ingresa tu Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    <br><br> 
+    <label for="asunto">Ingrese su asunto </label>
+    <select name="" id="asunto">
+      <option value="RI">Responsable Inscripto</option>
+      <option value="Sociedad Anonima">Sociedad Anonima</option>
+      <option value="persona indepentiente">Persona indepentiente</option>
+    </select>
+    <br><br>
+    <label for="novedades">Desea recibir Noticias de la empresa</label>
+    <input type="checkbox" id="novedades" name="acepta novedades" value="acepta novedades"> 
+    <br><br>
+    <input type="submit" value="Enviar">
+  </form>
+  <footer>
+    <div class="container">
+  <div class="enlace-altote">
+          <a href="/Proyecto/index.html">Volver al Inicio</a>
+      </div>
+  </div>
+    <div class="container">
+        <div class="logo">
+            <img src="/img/isotipo.png" alt="Logo de Altote SA">
+        </div>
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <p>Paroissien 1686, Nuñez CABA</p>
+            <p>Teléfono: 4702-8531</p>
+            <p>Email: info@altotesa.com</p>
+        </div>
+        <div class="redes-sociales">
+            <h3>Síguenos en redes sociales</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/company/altote-sa/"><img src="linkedin-icon.png" alt="Linkedin"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="derechos">
+        <p>Todos los derechos reservados &copy; 2003 Altote SA</p>
+    </div>    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html> 

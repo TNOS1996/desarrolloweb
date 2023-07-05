@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .foreground-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .nav li {
+    margin: 0 10px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  .contact-section {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  /* TIPOGRAFIA DE GOOGLE LO DE ABAJO*/
+  p{
+    font-family: 'Lora', serif;
+    font-size: large;
+  }
+.client-list {
+  display: flex;
+  flex-direction: column;
+}
+.client-list li {
+order: -1;
+}
+h2 {
+  font-size: 45px; /* Tamaño de letra más grande */
+  text-decoration: underline; /* Subrayado */
+  text-decoration-color: white; /* Color del subrayado */
+  display: inline-block; /* Para que el resaltado se ajuste al contenido */
+  padding: 5px; /* Espacio de relleno para el resaltado */
+}
+@media (max-width: 768px) {
+  /* Reglas de estilo para dispositivos con un ancho máximo de 768px (como tablets) */
+  /* Aquí puedes modificar el diseño para que se adapte mejor a pantallas más pequeñas */
+}
+
+@media (max-width: 480px) {
+  /* Reglas de estilo para dispositivos con un ancho máximo de 480px (como teléfonos móviles) */
+  /* Aquí puedes ajustar aún más el diseño para pantallas más pequeñas */
+}
